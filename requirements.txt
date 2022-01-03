@@ -6,4 +6,5 @@ ruamel.yaml
 ipykernel
 ipython
 pyjstat
+nbconvert
 ghp-import
