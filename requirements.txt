@@ -6,3 +6,4 @@ ruamel.yaml
 ipykernel
 ipython
 pyjstat
+ghp-import
