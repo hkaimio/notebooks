@@ -8,3 +8,4 @@ ipython
 pyjstat
 nbconvert
 ghp-import
+jinja2==3.0.3
