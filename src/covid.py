@@ -120,7 +120,7 @@ def plot_history(shp, start_date=_default_start, end_date=None):
 
 
     # Draw current level
-    current = fi_data.iloc[[fi_data.index.get_loc(end_date, method='nearest')]]["infected_sum_last_week"]
+    current = fi_data.iloc[[fi_data.index.get_indexer([end_date], method='nearest')][0]]["infected_sum_last_week"]
     ax[1].hlines(current, start_date, end_date, color="lightgray")
 
     ax[0].set_facecolor("white")
